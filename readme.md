@@ -1,55 +1,8 @@
+原文作者：https://github.com/pinguo-zhouwei/MZBannerView
+
 ### MZBannerView
 
-现在的APP Banner大多数千篇一律，前几天看到魅族手机上所有魅族自家APP上的Banner效果不错，于是就想着来仿着做一个类似的效果。因此就有了这个库。但是为了使用方便，这个库不仅仅只有仿魅族效果的BannerView 来使用，还可以当作普通的BannerView 来使用，还可以当作一个ViewPager 来使用。使用很方便，具体使用方法和API 请看后面的示例。
-
-
-![meizuappbanner](image/meizuappbanner.gif) －－－ ![魅族bannerView](image/MZBannerView.gif)
-左图为魅族APP上的Banner效果，右图是高仿效果。
-
-
-
-**MZBannerView 有以下功能：**
-
-1 . 仿魅族BannerView 效果。
-
-2 . 当普通Banner 使用
-
-3 . 当普通ViewPager 使用。
-
-4 . 当普通ViewPager使用(有魅族Banner效果)
-
-### Demo APK 
-
-gif图片有点模糊，可以扫描下方二维码下载APK体验
-
-![demo二维码.png](image/demo二维码.png)
-
-### 相关博客
-
-[ViewPager系列之 仿魅族应用的广告BannerView](http://www.jianshu.com/p/653680cfe877)
-
-### 更新日志
-
-**v1.1.0 :** fix 在从网上获取数据后，banner 显示 造成 ANR 的bug(如果在onCreate()中设置资源显示则没问题)
-
-
-### Dependency
-Add it in your root build.gradle at the end of repositories:
-
-```java
-allprojects {
-     repositories {
-          ...
-          maven { url 'https://jitpack.io' }
-     }
-}
-```
-Step 2. Add the dependency
-```
-dependencies {
-         compile 'com.github.pinguo-zhouwei:MZBannerView:v1.1.0'
-}
-```
+最近项目上有用到轮播图，刚好看到作者的文章比较符合，Fork后进行了，代码整合，使用起来更简单。
 
 ### 自定义属性
 
@@ -182,38 +135,3 @@ dependencies {
 2 ，普通ViewPager效果图:
 
 ![MZBanner普通ViewPager效果.gif](image/MZBanner普通ViewPager效果.gif)
-
-### Thanks
- 感谢[Android-ConvenientBanner](https://github.com/saiwu-bigkoo/Android-ConvenientBanner),Android-ConvenientBanner 是一个不错的Banner库，我也参考了其中的部分代码
- 有兴趣的可以去看一下这个库。
- 
-### 联系方式
- 简书:[http://www.jianshu.com/u/35167a70aa39](http://www.jianshu.com/u/35167a70aa39)
- 
- 掘金：[https://juejin.im/user/56949a9960b2e058a42be0ba](https://juejin.im/user/56949a9960b2e058a42be0ba)
- 
- 公众号：**Android技术杂货铺**
- 
- 欢迎关注我的公众号，第一时间获取我的博客更新提醒，以及更多有价值的原创Android干货文章、职场经验、面试技巧等等。
- 长按下方二维码即可关注。
-
- ![gzh.jpg](image/gzh.jpg)
- 
-
-### License
-  
-  ```
-     Copyright (C) 2017 zhouwei
-  
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-  
-         http://www.apache.org/licenses/LICENSE-2.0
-  
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
-  ```
