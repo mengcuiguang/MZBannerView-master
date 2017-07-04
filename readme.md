@@ -2,6 +2,10 @@
 
 ### MZBannerView
 
+BannerView 轮播效果图：
+
+![魅族bannerView](image/魅族bannerView.gif) 
+
 最近项目上有用到轮播图，刚好看到作者的文章比较符合，Fork后进行了，代码整合，使用起来更简单。
 
 ### 自定义属性
@@ -126,12 +130,3 @@
 ```
 因为是对ViewPager的包装，所有要设置某些ViewPager的属性，可以通过getViewPager 获取到ViewPager再设置对应属性
 
-### 效果图：
-
-1, BannerView 轮播效果图：
-
-![魅族bannerView](image/魅族bannerView.gif) 
-
-2 ，普通ViewPager效果图:
-
-![MZBanner普通ViewPager效果.gif](image/MZBanner普通ViewPager效果.gif)
